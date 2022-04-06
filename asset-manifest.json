@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pizzaFabrika/static/css/main.f6ee8883.css",
-    "main.js": "/pizzaFabrika/static/js/main.3aaf87c9.js",
+    "main.js": "/pizzaFabrika/static/js/main.29f571ec.js",
     "index.html": "/pizzaFabrika/index.html",
     "main.f6ee8883.css.map": "/pizzaFabrika/static/css/main.f6ee8883.css.map",
-    "main.3aaf87c9.js.map": "/pizzaFabrika/static/js/main.3aaf87c9.js.map"
+    "main.29f571ec.js.map": "/pizzaFabrika/static/js/main.29f571ec.js.map"
   },
   "entrypoints": [
     "static/css/main.f6ee8883.css",
-    "static/js/main.3aaf87c9.js"
+    "static/js/main.29f571ec.js"
   ]
 }
