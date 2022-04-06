@@ -1,0 +1,108 @@
+.container {
+    width: 100%;
+
+& .panel-devtools {
+    position: fixed; 
+    top: 0;  
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    background: rgba(249, 237, 214, 0.973);
+    border-bottom: 4px solid rgb(129, 129, 129);
+
+    &__container {
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+  }
+
+.table {
+	width: 75%;
+    margin: 120px auto 50px auto;
+	border: none;
+	border-collapse:separate;
+    border: 3.5px solid rgb(0, 0, 0);
+    border-radius: 20px 20px 0 0;
+    position: relative;
+
+    & .btn {
+        background-color: #47af9ac2;
+        
+    }
+
+    &  thead th {
+        font-family: 'Staatliches', cursive;
+        font-weight: bold;
+        text-align: center;
+        border: 2px solid rgb(0, 0, 0);
+        padding: 15px 20px;
+        background: linear-gradient(to bottom, rgba(105, 204, 171, 0.856), 50%, rgb(68, 151, 177) );
+        font-size: 24px;
+    }
+    & tbody tr {
+        height: 55px
+    }
+
+    & thead tr th:first-child {
+        border-radius: 20px 0 0 0;
+    }
+
+    & thead tr th:last-child {
+        border-radius: 0 20px 0 0;
+    }
+
+    & tbody .birthday {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    & tbody td {
+        font-family: 'League Spartan', sans-serif;
+        position: relative;
+        text-align: left;
+        border: none;
+        padding: 10px;
+        font-weight: 500;
+        font-size: 20px;
+        vertical-align: top;
+        & .rm {
+            position: absolute;
+            background: #ffa672;
+            border-radius: 60%;
+            width: 1.7rem;
+            height: 1.7rem;
+            padding: 0;
+            color: white;
+            border: none;
+            top: 25%;
+            right: 5%;
+          }
+          & .details {
+            width: 70px;
+            height: 35px;
+            background: #fed0b5;
+            font-size: 17px;
+            font-weight: 500;
+            border-radius: 25px;
+            margin: 0;
+        }
+    }
+    
+    & tbody tr:nth-child(odd) {
+        background: linear-gradient(to right, rgba(250, 234, 204, 0.973), 60%,rgb(253, 249, 236));
+    }
+
+    & tbody tr:nth-child(even) {
+        background: #cbd5f3;
+        padding: 0;
+        margin: 0;
+        background: linear-gradient(to left, rgba(250, 234, 204, 0.966), 70%, rgb(253, 249, 236));
+    }
+}
+}
