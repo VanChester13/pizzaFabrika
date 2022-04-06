@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/task-pizza/static/css/main.f6ee8883.css",
-    "main.js": "/task-pizza/static/js/main.3aaf87c9.js",
-    "index.html": "/task-pizza/index.html",
-    "main.f6ee8883.css.map": "/task-pizza/static/css/main.f6ee8883.css.map",
-    "main.3aaf87c9.js.map": "/task-pizza/static/js/main.3aaf87c9.js.map"
+    "main.css": "/pizzaFabrika/static/css/main.f6ee8883.css",
+    "main.js": "/pizzaFabrika/static/js/main.3aaf87c9.js",
+    "index.html": "/pizzaFabrika/index.html",
+    "main.f6ee8883.css.map": "/pizzaFabrika/static/css/main.f6ee8883.css.map",
+    "main.3aaf87c9.js.map": "/pizzaFabrika/static/js/main.3aaf87c9.js.map"
   },
   "entrypoints": [
     "static/css/main.f6ee8883.css",
