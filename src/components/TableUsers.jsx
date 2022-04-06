@@ -21,7 +21,6 @@ function TableUsers() {
         history("/addUser")
     }
      
-  
     const removeUser = (id) => window.confirm('Вы действительно хотите удалить?') && dispatch(deleteUser(id))
 
     return (

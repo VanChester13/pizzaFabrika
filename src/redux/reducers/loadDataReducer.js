@@ -18,13 +18,16 @@ const loadDatReducer = (state = initialState, action) => {
             return {...state, users: action.payload }
 
 
-        case 'SET_FILTER_OF_ROLE' :
-            return {...state, users: state.initialEmployees.filter((item) => item.role === action.payload)}
-
+        case 'SET_FILTER_OF_ROLE' : {
+            const newArr = state.initialEmployees.filter(item => item.role === action.payload.toString())
+            return {...state, users: newArr}
+        }
         
-        case 'SET_CHECK_ARCRHIVE' :
-            return {...state, users: state.initialEmployees.filter((item) => item.isArchive === action.payload)}  
-
+        case 'SET_CHECK_ARCRHIVE' : {
+            const newArr = state.initialEmployees.filter(item => item.isArchive === action.payload)
+            return {...state, users: newArr} 
+        }
+            
 
         case 'SET_ACTIVE_EMPLOYEE' : 
             return {...state, activeEmployee: action.payload}

@@ -6,7 +6,7 @@ import { createStore, applyMiddleware } from 'redux'
 import { rootReducer } from './redux/reducers/rootReducer'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import thunk from 'redux-thunk'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 import './scss/app.scss'
 
 const rootElement = document.getElementById("root");
